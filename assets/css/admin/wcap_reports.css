@@ -1,0 +1,1223 @@
+/**
+ * WCAP Dashboard Styles
+ * @since: 3.5
+ */
+
+/** 
+ * Store total amount vs Recovered cart amount.  
+ */
+.abandoned_vs_recovered_amount{
+	height:200px; 
+	width: 32%;
+	word-wrap: break-word;
+}
+.abandoned_vs_recovered_amount_price{
+	
+	margin-top: 0;
+    position: absolute;
+    right: 74.5%;
+    text-align: center;
+    top: 42%;
+    width: 28%;
+    word-wrap: break-word;
+    z-index: 9999;
+	 
+}
+.abandoned_vs_recovered_amount_span{
+	font-size: 2vw;  
+	right: 72%;
+}
+.abandoned_vs_recovered_amount_price_text{
+	
+	margin-top: 2%;
+    position: absolute;
+    text-align: center;
+    top: 42%;
+    width: 28%;
+	right:74.5%;
+    word-wrap: break-word;
+    z-index: 9999;
+}
+
+.abandoned_vs_recovered_amount_price_text_span{
+	font-size: 0.8vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.abandoned_vs_recovered_amount_price_ratio{
+	right: 77%;	
+	margin-top: 1.9%;
+    position: absolute;
+    text-align: center;
+    width: 23%;
+    word-wrap: break-word;
+}
+.abandoned_vs_recovered_amount_span_ratio{
+	font-size: 1.3vw;
+	left: 50%; 
+	right: 50%; 
+	color: #1abc9c;
+	word-wrap: break-word;
+	max-width: 50%;
+	 
+}
+.abandoned_vs_recovered_amount_price_text_ratio{
+	right: 69.5%; 	 
+	margin-top: 3.5%;
+    max-width: 50%;
+    position: absolute;
+    width: 30%;
+    word-wrap: break-word;
+    z-index: 9999;
+	 
+}
+.abandoned_vs_recovered_amount_price_text_span_ratio{
+	font-size: 0.8vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+	left: 24%;
+}
+
+/*
+ * Abandoned cart vs Recovred Cart number
+ */
+.abandoned_vs_recovered_cart_number{
+	
+	height:200px; 
+	width: 32%; 
+	position: absolute; 
+	bottom: 4%; 
+	right: 36%;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.abandoned_vs_recovered_cart_number_div{
+	margin-top: 0;
+    max-width: 50%;
+    position: absolute;
+    right: 43.5%;
+    text-align: center;
+    top: 42%;
+    width: 28%;
+    word-wrap: break-word;
+    z-index: 9999;
+}
+
+.abandoned_vs_recovered_cart_number_div_span{
+	font-size: 2vw;  
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.abandoned_vs_recovered_cart_number_div_text{
+	margin-top: 2%;
+    max-width: 50%;
+    position: absolute;
+    right: 43.5%;
+    text-align: center;
+    top: 42%;
+    width: 28%;
+    word-wrap: break-word;
+    z-index: 9999;
+}
+
+.abandoned_vs_recovered_cart_number_div_text_span{
+	font-size: 0.8vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.abandoned_vs_recovered_cart_number_div_ratio{
+	margin-top: 1.9%;
+    max-width: 50%;
+    position: absolute;
+    right: 41.5%;
+    text-align: center;
+    width: 30%;
+    word-wrap: break-word;
+}
+
+.abandoned_vs_recovered_cart_number_div_span_ratio{
+	font-size: 1.3vw;
+	left: 50%; 
+	right: 50%; 
+	color: #1abc9c;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.abandoned_vs_recovered_cart_number_div_text_ratio{
+	margin-top: 3.5%;
+    max-width: 50%;
+    position: absolute;
+    right: 41%;
+    text-align: center;
+    width: 30%;
+    word-wrap: break-word;
+}
+
+.abandoned_vs_recovered_cart_number_div_text_span_ratio{
+	font-size: 0.8vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+	 
+}
+
+/*
+ * Store total order number vs Abandoned orders number
+ */
+.total_orders_vs_abandoned_orders_number{
+	height:200px; 
+	width: 32%; 
+	position: absolute; 
+	bottom: 4%; 
+	right: 0%; 
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.total_orders_vs_abandoned_orders_number_div{
+	margin-top: 0;
+    position: absolute;
+    right: 7%;
+    text-align: center;
+    top: 42%;
+    width: 28%;
+    word-wrap: break-word;
+    z-index: 9999;
+}
+
+.total_orders_vs_abandoned_orders_number_div_span{
+	font-size: 2vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.total_orders_vs_abandoned_orders_number_div_text{
+	margin-top: 2%; 
+	position: absolute; 
+	z-index: 9999; 
+	top: 42%;
+	word-wrap: break-word;
+	right: 7%;
+    text-align: center;
+    width: 28%;
+    z-index: 9999;
+}
+
+.total_orders_vs_abandoned_orders_number_div_text_span{
+	font-size: 0.8vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.total_orders_vs_abandoned_orders_number_div_ratio{
+	margin-top: 1.9%;
+    max-width: 50%;
+    position: absolute;
+    right: 5.5%;
+    text-align: center;
+    width: 30%;
+    word-wrap: break-word;
+}
+
+.total_orders_vs_abandoned_orders_number_div_span_ratio{
+	font-size: 1.3vw;
+	left: 50%; 
+	right: 50%; 
+	color: #1abc9c;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.total_orders_vs_abandoned_orders_number_div_text_ratio{
+	margin-top: 3%;
+    max-width: 50%;
+    position: absolute;
+    right: 5.5%;
+    text-align: center;
+    width: 30%;
+    word-wrap: break-word;
+}
+
+.total_orders_vs_abandoned_orders_number_div_text_span_ratio{
+	font-size: 0.8vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+/*
+* Filter
+*/
+.wcap_dashboard_report_filter{
+	width: 100%; 
+	height: auto; 
+}
+
+.filter_date_drop_down{
+	overflow: hidden;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0Px;
+	padding-top: 0px;
+}
+
+.wcap_dashbaord_report_lable{
+	float: left;
+    margin-right: 1%;
+}
+
+.wcap_start_end_date_div{
+	float: left;
+	margin-right: 0.5%;
+    margin-top: 0.5%;
+	max-width: 20%
+}
+
+.wcap_submit_button{
+	float: left;
+	margin-right: 0.5%;
+    margin-top: 0.5%;
+}
+
+.date_time_filter_label{
+	float: left;
+	margin-right: 0.5%;
+    margin-top: 0.9%;
+	display: inline-block;
+}
+
+#duration_select{
+	float: left;
+	margin-right: 0.5%;
+    margin-top: 0.5%;
+}
+/**
+ * Calendar
+ */
+#ui-datepicker-div{
+	z-index: 9999!important; 
+}
+
+#wcap_start_date {
+	width: 46%;
+	float: left;
+	display: inline-block;
+}
+
+#wcap_end_date{
+	width: 46%;
+	float: left;
+	display: inline-block;
+}
+/*
+ * Email reports
+ */
+.wcap_email_report_parent_div{
+	margin-top: 5%;
+}
+/**
+ * Total email sent
+ */
+.wcap_abandoned_email_sent{
+	height:200px; 
+	width: 28%;
+	word-wrap: break-word;
+}
+
+.wcap_sent_email_count_div{
+	
+	margin-top: 0;
+    max-width: 50%;
+    position: absolute;
+    text-align: center;
+    top: 39%;
+    width: 20%;
+    word-wrap: break-word;
+    z-index: 9999;
+}
+
+.wcap_sent_email_count_div_span{
+	font-size: 2.3vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.wcap_sent_email_count_div_text{
+	margin-top: 2%;
+    max-width: 50%;
+    position: absolute;
+    text-align: center;
+    top: 38%;
+    width: 20%;
+    word-wrap: break-word;
+    z-index: 9999;
+}
+
+.wcap_sent_email_count_div_text_span{
+	font-size: 0.8vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.wcap_sent_email_count_div_ratio{
+	margin-top: 1.9%; 
+	position: absolute;
+	word-wrap: break-word;
+	text-align: center;
+    width: 20%;
+    word-wrap: break-word;
+    z-index: 9999;
+}
+
+.wcap_sent_email_count_div_ratio_span{
+	font-size: 1.3vw;
+	left: 50%; 
+	right: 50%; 
+	color: #1abc9c;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.wcap_sent_email_count_div_text_ratio{
+	margin-top: 3.5%; 
+	position: absolute;
+	text-align: center;
+    width: 20%;
+    word-wrap: break-word;
+    z-index: 9999;
+}
+
+.wcap_sent_email_count_div_text_ratio_span{
+	font-size: 0.8vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+/**
+ * Opened Email vs sent emails
+ */
+
+.wcap_abandoned_email_opened{
+	height:200px; 
+	width: 32%; 
+	position: absolute; 
+	bottom: 5%; 
+	right: 36%;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.wcap_email_opened_count_div{
+	margin-top: 0;
+    position: absolute;
+    right: 46%;
+    text-align: center;
+    top: 39%;
+    width: 20%;
+    word-wrap: break-word;
+    z-index: 9999;
+}
+
+.wcap_email_opened_count_div_span{
+	font-size: 2.3vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+	padding-right: 15%;
+}
+
+.wcap_email_opened_count_div_text{
+	margin-top: 2%;
+    position: absolute;
+    right: 50%;
+    text-align: center;
+    top: 38%;
+    width: 16%;
+    word-wrap: break-word;
+    z-index: 9999;
+}
+
+.wcap_email_opened_count_div_text_span{
+	font-size: 0.8vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.wcap_abandoned_email_opened_div_ratio{
+	margin-top: 1.9%; 
+	position: absolute;
+	right: 49%;
+    text-align: center;
+    width: 16%;
+    word-wrap: break-word;
+    z-index: 9999;
+}
+
+.wcap_abandoned_email_opened_div_span_ratio{
+	font-size: 1.3vw;
+	left: 50%; 
+	right: 50%; 
+	color: #1abc9c;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.wcap_abandoned_email_opened_div_text_ratio{
+	margin-top: 3.5%; 
+	position: absolute;
+	word-wrap: break-word;
+	right: 49%;
+    text-align: center;
+    width: 16%;
+    z-index: 9999;
+}
+
+.wcap_abandoned_email_opened_div_text_span_ratio{
+	font-size: 0.8vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+/*
+ * opened email vs emails clicked
+ */
+.wcap_abandoned_email_clicked{
+	height:200px; 
+	width: 32%; 
+	position: absolute; 
+	bottom: 5%; 
+	right: 0%; 
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.wcap_abandoned_email_clicked_div{
+	margin-top: 0;
+    position: absolute;
+    right: 10.6%;
+    text-align: center;
+    top: 39%;
+    width: 19%;
+    word-wrap: break-word;
+    z-index: 9999;
+}
+
+.wcap_abandoned_email_clicked_div_span{
+	font-size: 2.3vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.wcap_abandoned_email_clicked_div_text{
+	margin-top: 2%; 
+	position: absolute;  
+	z-index: 9999; 
+	top: 38%;
+	right: 12.4%;
+    text-align: center;
+    width: 16%;
+    word-wrap: break-word;
+}
+
+.wcap_abandoned_email_clicked_div_text_span{
+	font-size: 0.8vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.wcap_emails_clicked_ratio_div{
+	margin-top: 1.9%; 
+	position: absolute;
+	word-wrap: break-word;
+	right: 12%;
+    text-align: center;
+    width: 16%;
+    z-index: 9999;
+}
+
+.wcap_emails_clicked_ratio_div_span{
+	font-size: 1.3vw;
+	left: 50%; 
+	right: 50%; 
+	color: #1abc9c;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+
+.wcap_emails_clicked_ratio_div_text{
+	margin-top: 3.5%; 
+	position: absolute;
+	word-wrap: break-word;
+	right: 12%;
+    text-align: center;
+    width: 16%;
+    z-index: 9999;
+}
+
+.wcap_emails_clicked_ratio_div_text_span{
+	font-size: 0.8vw;  
+	-moz-text-align-last: center;
+	position: relative;
+	text-align: justify;
+	word-wrap: break-word;
+	max-width: 50%;
+}
+/**
+ * Tool tip font size
+ */
+
+.chart-tooltip{
+	font-size: 0.8vw;
+	z-index: 9999; 
+}
+
+/*
+ * Template reports on Dashboard
+ */
+
+.wcap_template_report_dashboard{
+	margin-top: 4%;
+}
+
+#wcap_template_dashboard_first{
+	width: 33%;
+	float: left;
+	margin-bottom: 2%;
+}
+#wcap_template_dashboard_second{
+	width: 33%;
+	float: left;
+	margin-bottom: 2%;
+}
+#wcap_template_dashboard_third{
+	width: 32%;
+	float: left;
+	margin-bottom: 2%;
+}
+
+/*
+ * Title of the template campain on dashboard
+ */
+
+.wcap_template_main_section{
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+	margin-right: 15px;
+}
+
+.wcap_active_template{
+	color: green;
+}
+
+.wcap_deactive_template{
+	color: red;
+}
+
+.wcap_click_open_div{
+	text-align: center;
+    margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.wcap_recovery_div{
+	text-align: center;
+}
+
+.wcap_atc_heading{
+	
+	margin-bottom: 3%;
+}
+
+.wcap_three_cell {
+	text-align: center;
+	max-width: 360px;
+	width: 100%;
+	position: relative;
+	left: 33%;
+}
+	
+.wcap_three_cell .top {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+}
+
+.wcap_three_cell .wcap_cell_box {
+	padding: 15px 30px;
+	border-radius: 10px;
+	display: inline-block;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;    
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.wcap_three_cell .wcap_graphic { 
+	background: url("../../images/dashed_line.png") no-repeat center center;
+	background-size: contain;
+	height: 50px;
+	margin: 5px;
+}
+
+.wcap_three_cell .wcap_num {
+	font-size: 34px;
+	display: block;
+	color: #555;
+	padding-bottom: 10px;
+}
+
+.wcap_three_cell .wcap_label {
+	font-size: 16px;
+	color: #555;
+}
+
+.wcap_three_cell .wcap_bottom {
+	.wcap_cell_box {
+		width: 100%;
+	}
+}
+
+.wcap_redirect_atc_setting{
+	position: absolute;
+ 	top: 2% !important;
+    float: left;
+    left: 105%;
+}
+
+@media (min-width : 768px) and (max-width : 1024px) {
+	.abandoned_vs_recovered_amount_price_text{
+		right: 70%;
+	}
+	.abandoned_vs_recovered_amount_span {
+		font-size: 2.8vw;
+	}
+	.abandoned_vs_recovered_amount_price {
+		right: 70%;
+	}
+	#abandoned_vs_recovered_amount_price_text_span {
+		font-size: 2vw;
+	}
+	#abandoned_vs_recovered_cart_number_div {
+		right: 40%;
+	}
+	#abandoned_vs_recovered_cart_number_div_span {
+		font-size: 2.8vw;
+	}
+	#abandoned_vs_recovered_cart_number_div_text {
+		right: 40%;
+	}
+	#abandoned_vs_recovered_cart_number_div_text_span {
+		font-size: 2vw;
+	}
+	#total_orders_vs_abandoned_orders_number_div {
+		right: 4%;
+	}
+	#total_orders_vs_abandoned_orders_number_div_span {
+		font-size: 2.8vw;
+	}
+	#total_orders_vs_abandoned_orders_number_div_text {
+		right: 4%;
+	}
+	#total_orders_vs_abandoned_orders_number_div_text_span {
+		font-size: 2vw;
+	}
+	.wcap_sent_email_count_div {
+		right: 75%;
+	}
+	#wcap_sent_email_count_div_span {
+		font-size: 2.8vw;
+	}
+	.wcap_sent_email_count_div_text {
+		right: 75%;
+	}
+	#wcap_sent_email_count_div_text_span {
+		font-size: 2vw;
+	}
+	#wcap_email_opened_count_div {
+		right: 42%;
+	}
+	#wcap_email_opened_count_div_span {
+		font-size: 2.8vw;
+	}
+	#wcap_email_opened_count_div_text {
+		right: 46%;
+	}
+	#wcap_email_opened_count_div_text_span {
+		font-size: 2vw;
+	}
+	#wcap_abandoned_email_clicked_div {
+		right: 8.6%;
+	}
+	#wcap_abandoned_email_clicked_div_span {
+		font-size: 2.3vw;
+	}
+	#wcap_abandoned_email_clicked_div_text {
+		right: 10%;
+	}
+	#wcap_abandoned_email_clicked_div_text_span {
+		font-size: 2vw;
+	}
+	#abandoned_vs_recovered_amount_price_ratio {
+		right: 72.5%;
+	}
+	#abandoned_vs_recovered_amount_span_ratio {
+		font-size: 2vw;
+	}
+	#abandoned_vs_recovered_amount_price_text_ratio {
+		right: 65.5%;
+	}
+	#abandoned_vs_recovered_amount_price_text_span_ratio {
+		font-size: 2vw;
+		top: 0.5em;
+	}
+	#abandoned_vs_recovered_cart_number_div_ratio {
+		right: 38.5%;
+	}
+	#abandoned_vs_recovered_cart_number_div_span_ratio {
+		font-size: 2vw;
+	}
+	#abandoned_vs_recovered_cart_number_div_text_ratio {
+		right: 38%;
+	}
+	#abandoned_vs_recovered_cart_number_div_text_span_ratio {
+		font-size: 2vw;
+		top: 0.5em;
+	}
+	#total_orders_vs_abandoned_orders_number_div_ratio {
+		right: 2.5%;
+	}
+	#total_orders_vs_abandoned_orders_number_div_span_ratio {
+		font-size: 2vw;
+	}
+	#total_orders_vs_abandoned_orders_number_div_text_ratio {
+		right: 2.3%;
+	}
+	#total_orders_vs_abandoned_orders_number_div_text_span_ratio {
+		font-size: 2vw;
+		top: 0.5em;
+	}
+	.wcap_sent_email_count_div_ratio {
+		right: 75%;
+	}
+	#wcap_sent_email_count_div_ratio_span {
+		font-size: 2vw;
+	}
+	.wcap_sent_email_count_div_text_ratio {
+		right: 75%;
+	}
+	#wcap_sent_email_count_div_text_ratio_span {
+		font-size: 2vw;
+		top: 0.5em;
+	}
+	#wcap_abandoned_email_opened_div_ratio {
+		right: 46%;
+	}
+	#wcap_abandoned_email_opened_div_span_ratio {
+		font-size: 2vw;
+	}
+	#wcap_abandoned_email_opened_div_text_ratio {
+		right: 46%;
+	}
+	#wcap_abandoned_email_opened_div_text_span_ratio {
+		font-size: 2vw;
+		top: 0.5em;
+	}
+	#wcap_emails_clicked_ratio_div {
+		right: 10%;
+	}
+	#wcap_emails_clicked_ratio_div_span {
+		font-size: 2vw;
+	}
+	#wcap_emails_clicked_ratio_div_text {
+		right: 10%;
+	}
+	#wcap_emails_clicked_ratio_div_text_span {
+		font-size: 2vw;
+		top: 0.5em;
+	}
+}
+
+@media (min-width : 320px) and (max-width : 480px) {
+	.chart-container {
+		width: 100%;
+	}
+	.abandoned_vs_recovered_amount_price_text{
+		right: 68%;
+	}
+	.abandoned_vs_recovered_amount_span {
+		font-size: 3.5vw;
+	}
+	.abandoned_vs_recovered_amount_price {
+		right: 68%;
+	}
+	#abandoned_vs_recovered_amount_price_text_span {
+		font-size: 2.8vw;
+		top: 0.5em;
+	}
+	#abandoned_vs_recovered_cart_number_div {
+		right: 39%;
+	}
+	#abandoned_vs_recovered_cart_number_div_span {
+		font-size: 3.5vw;
+	}
+	#abandoned_vs_recovered_cart_number_div_text {
+		right: 39%;
+	}
+	#abandoned_vs_recovered_cart_number_div_text_span {
+		font-size: 2.8vw;
+		top: 0.5em;
+	}
+	#total_orders_vs_abandoned_orders_number_div {
+		right: 3%;
+	}
+	#total_orders_vs_abandoned_orders_number_div_span {
+		font-size: 3.5vw;
+	}
+	#total_orders_vs_abandoned_orders_number_div_text {
+		right: 3%;
+	}
+	#total_orders_vs_abandoned_orders_number_div_text_span {
+		font-size: 2.8vw;
+		top: 0.5em;
+	}
+	.wcap_sent_email_count_div {
+		right: 74%;
+		top: 42%;
+	}
+	#wcap_sent_email_count_div_span {
+		font-size: 3.5vw;
+	}
+	.wcap_sent_email_count_div_text {
+		right: 73.5%;
+	}
+	#wcap_sent_email_count_div_text_span {
+		font-size: 2.8vw;
+		top: 1.5em;
+	}
+	#wcap_email_opened_count_div {
+		right: 41%;
+		top: 42%;
+	}
+	#wcap_email_opened_count_div_span {
+		font-size: 3.5vw;
+	}
+	#wcap_email_opened_count_div_text {
+		right: 44%;
+	}
+	#wcap_email_opened_count_div_text_span {
+		font-size: 2.8vw;
+		top: 1.5em;
+	}
+	#wcap_abandoned_email_clicked_div {
+		right: 5.6%;
+		top: 42%;
+	}
+	#wcap_abandoned_email_clicked_div_span {
+		font-size: 3.5vw;
+	}
+	#wcap_abandoned_email_clicked_div_text {
+		right: 7%;
+	}
+	#wcap_abandoned_email_clicked_div_text_span {
+		font-size: 2.8vw;
+		top: 1.5em;
+	}
+	#abandoned_vs_recovered_amount_price_ratio {
+		right: 70.5%;
+	}
+	#abandoned_vs_recovered_amount_span_ratio {
+		font-size: 3vw;
+	}
+	#abandoned_vs_recovered_amount_price_text_ratio {
+		right: 68.5%;
+	}
+	#abandoned_vs_recovered_amount_price_text_span_ratio {
+		font-size: 3vw;
+		top: 0.5em;
+	}
+	#abandoned_vs_recovered_cart_number_div_ratio {
+		right: 38.5%;
+	}
+	#abandoned_vs_recovered_cart_number_div_span_ratio {
+		font-size: 3vw;
+	}
+	#abandoned_vs_recovered_cart_number_div_text_ratio {
+		right: 38%;
+	}
+	#abandoned_vs_recovered_cart_number_div_text_span_ratio {
+		font-size: 3vw;
+		top: 0.5em;
+	}
+	#total_orders_vs_abandoned_orders_number_div_ratio {
+		right: 2.5%;
+	}
+	#total_orders_vs_abandoned_orders_number_div_span_ratio {
+		font-size: 3vw;
+	}
+	#total_orders_vs_abandoned_orders_number_div_text_ratio {
+		right: 2.3%;
+	}
+	#total_orders_vs_abandoned_orders_number_div_text_span_ratio {
+		font-size: 3vw;
+		top: 0.5em;
+	}
+	.wcap_sent_email_count_div_ratio {
+		right: 75%;
+	}
+	#wcap_sent_email_count_div_ratio_span {
+		font-size: 3vw;
+	}
+	.wcap_sent_email_count_div_text_ratio {
+		right: 75%;
+	}
+	#wcap_sent_email_count_div_text_ratio_span {
+		font-size: 3vw;
+		top: 0.5em;
+	}
+	#wcap_abandoned_email_opened_div_ratio {
+		right: 46%;
+	}
+	#wcap_abandoned_email_opened_div_span_ratio {
+		font-size: 3vw;
+	}
+	#wcap_abandoned_email_opened_div_text_ratio {
+		right: 46%;
+	}
+	#wcap_abandoned_email_opened_div_text_span_ratio {
+		font-size: 3vw;
+		top: 0.5em;
+	}
+	#wcap_emails_clicked_ratio_div {
+		right: 10%;
+	}
+	#wcap_emails_clicked_ratio_div_span {
+		font-size: 3vw;
+	}
+	#wcap_emails_clicked_ratio_div_text {
+		right: 10%;
+	}
+	#wcap_emails_clicked_ratio_div_text_span {
+		font-size: 3vw;
+		top: 0.5em;
+	}	
+}
+
+@media (min-width : 481px) and (max-width : 767px) {
+	.chart-container {
+		width: 100%;
+	}
+	.abandoned_vs_recovered_amount_price_text{
+		right: 68%;
+	}
+	.abandoned_vs_recovered_amount_span {
+		font-size: 3.5vw;
+	}
+	.abandoned_vs_recovered_amount_price {
+		right: 68%;
+	}
+	#abandoned_vs_recovered_amount_price_text_span {
+		font-size: 2.8vw;
+		top: 0.5em;
+	}
+	#abandoned_vs_recovered_cart_number_div {
+		right: 39%;
+	}
+	#abandoned_vs_recovered_cart_number_div_span {
+		font-size: 3.5vw;
+	}
+	#abandoned_vs_recovered_cart_number_div_text {
+		right: 39%;
+	}
+	#abandoned_vs_recovered_cart_number_div_text_span {
+		font-size: 2.8vw;
+		top: 0.5em;
+	}
+	#total_orders_vs_abandoned_orders_number_div {
+		right: 3%;
+	}
+	#total_orders_vs_abandoned_orders_number_div_span {
+		font-size: 3.5vw;
+	}
+	#total_orders_vs_abandoned_orders_number_div_text {
+		right: 3%;
+	}
+	#total_orders_vs_abandoned_orders_number_div_text_span {
+		font-size: 2.8vw;
+		top: 0.5em;
+	}
+	.wcap_sent_email_count_div {
+		right: 74%;
+		top: 42%;
+	}
+	#wcap_sent_email_count_div_span {
+		font-size: 3.5vw;
+	}
+	.wcap_sent_email_count_div_text {
+		right: 73.5%;
+	}
+	#wcap_sent_email_count_div_text_span {
+		font-size: 2.8vw;
+		top: 1.5em;
+	}
+	#wcap_email_opened_count_div {
+		right: 41%;
+		top: 42%;
+	}
+	#wcap_email_opened_count_div_span {
+		font-size: 3.5vw;
+	}
+	#wcap_email_opened_count_div_text {
+		right: 44%;
+	}
+	#wcap_email_opened_count_div_text_span {
+		font-size: 2.8vw;
+		top: 1.5em;
+	}
+	#wcap_abandoned_email_clicked_div {
+		right: 5.6%;
+		top: 42%;
+	}
+	#wcap_abandoned_email_clicked_div_span {
+		font-size: 3.5vw;
+	}
+	#wcap_abandoned_email_clicked_div_text {
+		right: 7%;
+	}
+	#wcap_abandoned_email_clicked_div_text_span {
+		font-size: 2.8vw;
+		top: 1.5em;
+	}
+	#abandoned_vs_recovered_amount_price_ratio {
+		right: 70.5%;
+	}
+	#abandoned_vs_recovered_amount_span_ratio {
+		font-size: 3vw;
+	}
+	#abandoned_vs_recovered_amount_price_text_ratio {
+		right: 68.5%;
+	}
+	#abandoned_vs_recovered_amount_price_text_span_ratio {
+		font-size: 3vw;
+		top: 0.5em;
+	}
+	#abandoned_vs_recovered_cart_number_div_ratio {
+		right: 38.5%;
+	}
+	#abandoned_vs_recovered_cart_number_div_span_ratio {
+		font-size: 3vw;
+	}
+	#abandoned_vs_recovered_cart_number_div_text_ratio {
+		right: 38%;
+	}
+	#abandoned_vs_recovered_cart_number_div_text_span_ratio {
+		font-size: 3vw;
+		top: 0.5em;
+	}
+	#total_orders_vs_abandoned_orders_number_div_ratio {
+		right: 2.5%;
+	}
+	#total_orders_vs_abandoned_orders_number_div_span_ratio {
+		font-size: 3vw;
+	}
+	#total_orders_vs_abandoned_orders_number_div_text_ratio {
+		right: 2.3%;
+	}
+	#total_orders_vs_abandoned_orders_number_div_text_span_ratio {
+		font-size: 3vw;
+		top: 0.5em;
+	}
+	.wcap_sent_email_count_div_ratio {
+		right: 75%;
+	}
+	#wcap_sent_email_count_div_ratio_span {
+		font-size: 3vw;
+	}
+	.wcap_sent_email_count_div_text_ratio {
+		right: 75%;
+	}
+	#wcap_sent_email_count_div_text_ratio_span {
+		font-size: 3vw;
+		top: 0.5em;
+	}
+	#wcap_abandoned_email_opened_div_ratio {
+		right: 46%;
+	}
+	#wcap_abandoned_email_opened_div_span_ratio {
+		font-size: 3vw;
+	}
+	#wcap_abandoned_email_opened_div_text_ratio {
+		right: 46%;
+	}
+	#wcap_abandoned_email_opened_div_text_span_ratio {
+		font-size: 3vw;
+		top: 0.5em;
+	}
+	#wcap_emails_clicked_ratio_div {
+		right: 10%;
+	}
+	#wcap_emails_clicked_ratio_div_span {
+		font-size: 3vw;
+	}
+	#wcap_emails_clicked_ratio_div_text {
+		right: 10%;
+	}
+	#wcap_emails_clicked_ratio_div_text_span {
+		font-size: 3vw;
+		top: 0.5em;
+	}	
+}

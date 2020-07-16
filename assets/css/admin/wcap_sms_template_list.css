@@ -1,0 +1,20 @@
+/** Column - Text Message **/
+.column-txt_msg {
+	width: 20%;
+}
+.column-txt_msg textarea{
+	width: 100%;
+}
+/** Column - Frequency **/
+.column-sent_time {
+	width:20%;
+}
+/** Font awesome icon CSS **/
+.fa {
+	padding-top: 0.2em;
+}
+/** Merge Tags Display Div **/
+#merge_tags {
+	background: white;
+	padding: 0.5em;
+}

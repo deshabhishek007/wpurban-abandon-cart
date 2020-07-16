@@ -1,0 +1,39 @@
+/* Dashboard Widget Styles
+-------------------------------------------------------------- */
+.wcap_dashboard_report_widget table thead td{ 
+	border-bottom: 1px solid #ececec; 
+	color: #777;
+}
+
+.wcap_dashboard_report_widget .table_left { 
+	float: left; 
+	width: 45%;
+}
+
+.wcap_dashboard_report_widget .table_right { 
+	float: right; 
+	width: 45%;
+}
+
+.wcap_dashboard_report_widget .inside { 
+	font-size: 12px;
+}
+
+.wcap_dashboard_report_widget td { 
+	padding: 3px 0;
+}
+
+.wcap_dashboard_report_widget .wcap { 
+	font-size: 14px; 
+	font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif; 
+	padding-right: 6px; 
+	width: auto;
+}
+
+.wcap_dashboard_report_widget .t { 
+	font-size: 12px; 
+	padding-right: 12px; 
+	padding-top: 6px; 
+	color: #777; 
+	width: 100%;
+}

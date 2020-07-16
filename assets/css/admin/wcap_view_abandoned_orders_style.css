@@ -1,0 +1,137 @@
+/* Decrease the width of the Id column */
+table.wp-list-table .column-sr {
+   width:5%; 
+}
+
+table.wp-list-table .column-id {
+   width:5%; 
+}
+
+table.wp-list-table .column-wcap_actions {
+   text-align: center;
+}
+
+/* Decrease the width of the cutomer name column */
+table.wp-list-table .column-customer {
+  /* width:12%; */
+}
+/* Decrease the width of the email column 
+table.wp-list-table .column-email {
+  width:15%;
+}*/
+
+/* Decrease the width of the abandoned order date column */
+table.wp-list-table .column-date {
+  width: 15%;
+}
+
+/* This is for the new cart and checkout button in tinymce */
+#woocommerce_ac_email_body_abandoncart_email_variables_css{
+  
+  width : 55px !important;
+}
+
+span.mce_abandoncart_email_variables_css {
+  
+  width : 55px !important;
+}
+
+/* Decrease the width of the sr column in templates tab */
+table.wp-list-table .column-sr {
+  /* width:4% !important; */
+}
+
+/* Decrease the width of the Active column in templates tab */
+table.wp-list-table .column-activate {
+  /* width:12% !important; */
+}
+
+i.mce-i-abandoncart_email_variables_pro {
+    background-image: url(../../images/ac_editor_icon.png) ;
+    width: 30px;
+    height: 30px;
+}
+i.mce-i-abandoncart_email_variables_css_pro {
+    background-image: url(../../images/buttons_editor_icon_final.png) ;
+    width: 50px !important;
+    height: 30px;
+}
+
+.wcap_download{
+  position: relative; 
+  float: right;
+}
+
+.wcap_email_filter{
+  width: 25em;
+}
+img#help_tip_filter{
+    position: absolute;
+    top: 12em;
+    left: 41.2em;
+}
+
+
+#wcap_manual_email_data_loading {
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   display: none;
+   opacity: 0.7;
+   background-color: black;
+   z-index: 99;
+   text-align: center;
+}
+
+#wcap_manual_email_data_loading_image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+  width: 2%;  
+  
+}
+
+#wcap_manual_template_name{
+    width: 25em;
+}
+/* Display message when No check box selected for the bulk action
+-------------------------------------------------------------- */
+#wcap_ac_bulk_message{
+  display: none;
+}
+
+/*Change the color of the status on abandoned order page*/
+#wcap_abandoned{
+  background-color: green;
+  color: #fff;
+  padding: 3px;
+  font-weight: bold;
+}
+#wcap_abandoned_new{
+  background-color: #e45d1e;
+  color: #fff;
+  padding: 3px;
+  font-weight: bold; 
+}
+#wcap_unsubscribe_link{
+  background-color: #EA4335;
+  color: #fff;
+  padding: 3px;
+  font-weight: bold; 
+}
+#wcap_abandoned_unpaid{
+  background-color: grey;
+  color: #fff;
+  padding: 3px;
+  font-weight: bold; 
+}
+#wcap_abandoned_received{
+  background-color: #424874;
+  color: #fff;
+  padding: 3px;
+  font-weight: bold; 
+  display: inline-block;
+}

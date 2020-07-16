@@ -1,0 +1,13 @@
+Admin notice will be shown in the admin dashboard when the license key is not active for the plugin
+
+To add this feature to the plugin, you can follow the below steps:
+
+1. Copy the ts-active-license-notice.php file into your plugin folder. 
+
+2. Include the file once when on the admin page. This can be done with is_admin() function. 
+
+3. Change the value of the $plugin_name, $plugin_license_option variables of the TS_Welcome class with the values of your plugin.
+
+4. Change the plugin folder name and main file in the ts_get_version and ts_get_plugin_url function.
+
+5. Once done. A notice will be displayed informing customers that the license key is deactivated.

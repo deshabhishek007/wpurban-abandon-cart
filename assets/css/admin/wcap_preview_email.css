@@ -1,0 +1,226 @@
+body.wcap-modal-open {
+  overflow: hidden;
+}
+
+.wcap-modal {
+  z-index: 100000;
+  width: 54%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 93%;
+  max-height: 75%;
+}
+
+body.wcap-modal-loading .wcap-modal:before {
+  height: 24px;
+  width: 24px;
+  display: block;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+  -webkit-animation: spin .8s linear infinite;
+          animation: spin .8s linear infinite;
+  content: "";
+  background: url("../../images/loader.svg") center center;
+  background-size: cover;
+  line-height: 1;
+  text-align: center;
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.75);
+  z-index: 10;
+}
+
+body.wcap-modal-loading .wcap-modal  {
+  /*opacity: 0.4;*/
+}
+
+.wcap-modal .wcap-icon-close {
+  text-align: center;
+  line-height: 29px;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #666;
+  cursor: pointer;
+  border-left: 1px solid #E1E1E1;
+}
+
+.wcap-modal .wcap-icon-close:before {
+  font-size: 23px;
+  font-family: dashicons;
+  line-height: 53px;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  content: "\f335";
+}
+
+.wcap-modal .wcap-icon-close:hover {
+  background: #f5f5f5;
+  color: #000000;
+  border-radius: 0px 10px 0px 0px;
+}
+
+.wcap-modal h2 {
+  font-size: 1.4em;
+}
+
+.wcap-modal h3 {
+  font-size: 1.2em;
+}
+
+.wcap-modal__contents {
+  background-color: #f5f5f5;
+  min-height: 230px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.wcap-modal-overlay {
+  background: #000;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100000;
+}
+
+.wcap-modal__header {
+  height: 53px;
+  background: #ffffff;
+  border-bottom: 1px solid #E1E1E1;
+  box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px 10px 0px 0px ;
+}
+
+.wcap-modal__header h1 {
+  padding: 0 18px;
+  font-size: 19px;
+  line-height: 53px;
+  margin: 0;
+  float: left;
+}
+
+.wcap-modal__footer {
+  box-sizing: border-box;
+  background: #ffffff;
+  border-top: 1px solid #E1E1E1;
+  box-shadow: 0 -4px 4px -4px rgba(0, 0, 0, 0.1);
+  padding: 14px 18px;
+  min-height: 50px;
+  border-radius: 0px 0px 10px 10px ;
+}
+
+.wcap-modal__footer.button {
+  width: 100%;
+  float: left;
+  margin-left: 3px;
+}
+
+.wcap-modal__footer.button {
+
+}
+
+.wcap-modal__body {
+  overflow: auto;
+  min-height: 130px;
+}
+.wcap-modal__body hr {
+    margin: 17px 0;
+    border: none;
+    border-bottom: 1px solid #E1E1E1;
+}
+.wcap-modal__body ul {
+  margin: 17px 0 17px;
+}
+
+.wcap-modal__body-inner {
+  margin: 17px 18px 22px;
+}
+
+.wcap-cart-table {
+  background: transparent;
+  width: 100%;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-right: none;
+  margin: 20px 0;
+}
+
+.wcap-cart-table th, .wcap-cart-table td {
+  padding: 11px 14px;
+  vertical-align: top;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.wcap-modal-cart-content {
+  background: transparent;
+  width: 100%;
+  margin: 20px 0;
+  min-height: 130px;
+}
+
+.wcap-modal-cart-content th, .wcap-modal-cart-content td {
+  padding: 11px 14px;
+  vertical-align: top;
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.wcap-modal h2 {
+  text-align: center;
+}
+
+.wcap-modal-email-content {
+  background: transparent;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.wcap-modal-email-content th, .wcap-modal-email-content td {
+  padding: 11px 14px;
+  vertical-align: top;
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.wcap-modal-cart-content-hide{
+  background: #f5f5f5;
+  width: 100%;
+  min-height: 130px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.wcap-modal .wcap-icon-close-footer {
+  text-align: center;
+  float: right;
+}
+
+.wrapper {
+  padding-top: 20px !important;
+}
+.wcap_tax_note_preview{
+  font-size: 9px;
+}
+
+#wrapper {
+  padding: 15px 0 70px 0 !important;
+}
+
+#send_test_email_preview{
+  width: 15em !important;
+}
+#preview_test_email_sent_msg{
+  margin-left: 10px;
+}

@@ -1,0 +1,159 @@
+.wcap_image_selector {
+	position: absolute;
+    top: 58%;
+    left: 23%;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    background: aqua;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/*.wcap_header_image {
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden
+}
+
+.wcap_header_image img {
+    flex-shrink:0;
+    min-width:100%;
+    min-height:100%
+}*/
+
+.wcap_header_image {
+	width: 400px;
+	height: 200px;
+	/*background: url('images/carts_div.png');*/
+}
+
+/* Subject CSS */
+.wcap_preview_subject {
+	border-radius:1.3em 1.3em 1.3em 0;
+	background-color: #f1f0f0;
+	padding: 6px 12px;
+	max-width: 55%;
+	color: black;
+}
+
+.wcap_preview {
+	max-width: 55%;
+}
+
+/***************
+/* Header CSS */
+/**************/
+
+/* Header CSS begin */
+.wcap_fb_header {
+	border-radius: 12px 12px 0 0;
+	border: 1px solid rgba(0, 0, 0, .10);
+	height: 150px;
+	clear: both;
+    margin-top: 1px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    z-index: 10;
+    padding-top: 10px;
+}
+
+.wcap_fb_header img {
+	opacity: 0.5;
+	z-index: 5;
+}
+
+.wcap_header {
+    position: absolute;
+    top: 10%;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    line-height: 1.1;
+}
+
+.wcap_subheader {
+    position: absolute;
+    top: 25%;
+    color: white;
+    font-size: 14px;
+    padding: 12px 24px;
+    line-height: 1.1;
+}
+
+.wcap_checkout {
+	position: absolute;
+    top: 60%;
+    /*right: 0%;*/
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    /*text-transform: uppercase;*/
+    background: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    margin: 12px 24px;
+}
+/* Header CSS end */
+
+/*************
+/* List CSS */
+/************/
+
+/* List CSS begin */
+.wcap_fb_list {
+	height: 80px;
+	border: 1px solid rgba(0, 0, 0, .10);
+}
+/* List CSS end */
+
+/********************
+/* Unsubscribe CSS */
+/*******************/
+
+/* Unsubscribe CSS begin */
+.wcap_button {
+	border: 1px solid rgba(0, 0, 0, .10);
+	width: 100%;
+    text-align: center;
+    padding: 12px 24px;
+}
+.wcap_button_radius {
+    border-radius: 0 0 12px 12px;
+}
+
+.wcap_unsubscribe_button {
+	background: transparent;
+	border:	none;
+	/*text-transform: uppercase;*/
+	font-size: 16px;
+	color: #0084ff;
+	cursor: pointer;
+}
+/* Unsubscribe CSS end */
+
+.wcap_fb_list {
+	margin-left: 0px!important;
+	margin-right: 0px!important;
+}
+
+.wcap_product_image {
+	padding: 15px;
+}
+
+.wcap_product_image {
+	padding: 15px;
+}
+
+.wcap_product_title {
+	margin: 10px 0 0 0!important;
+}
+
+.wcap_product_subdetails {
+	color: #999;
+}
